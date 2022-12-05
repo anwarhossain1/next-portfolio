@@ -53,3 +53,41 @@
 .lightText {
   color: #666;
 }
+
+.contactMeContainer{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap:2rem;
+}
+
+.linkContainer{
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid;
+  border-bottom-color: greenyellow;
+  border-radius: 4px;
+  gap:5px;
+}
+
+.linkContainer:hover{
+  background: greenyellow;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .contactMeContainer{
+flex-direction: column;
+
+  }
+}
