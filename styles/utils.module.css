@@ -23,6 +23,9 @@
 .headingMd {
   font-size: 1.2rem;
   line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .borderCircle {

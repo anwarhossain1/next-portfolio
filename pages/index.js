@@ -3,17 +3,14 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 
 export default function Home() {
+    const mySelfIntroduction = 'I am a Software Engineer at 6amTech, working on Next.js and ReactJs. I enjoy working with NextJs, ReactJs, Redux, MaterialUi, React Query, Redux toolkit and making web pages faster. I am a Bangladeshi, living in Bangladesh 🇧🇩. I like riding my motorbike 🏍️ , reading books and adventurous trips. But mostly i enjoy coding 🤓.'
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+        <p>{mySelfIntroduction}</p>
       </section>
     </Layout>
   )
